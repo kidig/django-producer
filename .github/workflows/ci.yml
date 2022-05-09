@@ -26,7 +26,7 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - maxOS-latest
+          - macOS-latest
 
     name: "Run tests"
     runs-on: ${{ matrix.os }}
@@ -37,6 +37,6 @@ jobs:
           python-version: "3.9"
           cache: pip
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.dev.txt
       - name: Run tests
         run: pytest
