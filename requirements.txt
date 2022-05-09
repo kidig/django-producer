@@ -1,0 +1,8 @@
+Jinja2>=3.1.2  # https://palletsprojects.com/p/jinja/
+pyyaml==6.0  # https://pyyaml.org/
+
+# Django
+# ------
+django==3.2.13  # pyup: <4.0  # https://www.djangoproject.com/
+django-model-utils==4.2.0  # https://github.com/jazzband/django-model-utils
+drf-spectacular==0.22.1  # https://github.com/tfranzel/drf-spectacular
